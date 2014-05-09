@@ -25,18 +25,18 @@ metadata {
     command "sam_return"
     command "sam_link"
 
-    command "ps3-up"
-    command "ps3-down"
-    command "ps3-left"
-    command "ps3-right"
-    command "ps3-poweron"
-    command "ps3-ps"
-    command "ps3-select"
-    command "ps3-start"
-    command "ps3-triangle"
-    command "ps3-square"
-    command "ps3-circle"
-    command "ps3-cross"
+    command "ps3_up"
+    command "ps3_down"
+    command "ps3_left"
+    command "ps3_right"
+    command "ps3_poweron"
+    command "ps3_ps"
+    command "ps3_select"
+    command "ps3_start"
+    command "ps3_triangle"
+    command "ps3_square"
+    command "ps3_circle"
+    command "ps3_cross"
   }
 
   tiles {
@@ -98,52 +98,52 @@ metadata {
     }
 
     // PS3
-    standardTile("ps3-poweron",  "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-poweron", label: "Power On", action: "ps3-poweron", icon: ""
+    standardTile("ps3_poweron",  "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_poweron", label: "Power On", action: "ps3_poweron", icon: ""
     }
 
-    standardTile("ps3-up",       "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-up", label: "up", action: "ps3-up", icon: ""
+    standardTile("ps3_up",       "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_up", label: "up", action: "ps3_up", icon: ""
     }
 
-    standardTile("ps3-ps",       "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-ps", label: "PS", action: "ps3-ps", icon: ""
+    standardTile("ps3_ps",       "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_ps", label: "PS", action: "ps3_ps", icon: ""
     }
 
-    standardTile("ps3-left",     "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-left", label: "left", action: "ps3-left", icon: ""
+    standardTile("ps3_left",     "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_left", label: "left", action: "ps3_left", icon: ""
     }
 
-    standardTile("ps3-cross",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-cross", label: "Cross", action: "ps3-cross", icon: ""
+    standardTile("ps3_cross",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_cross", label: "Cross", action: "ps3_cross", icon: ""
     }
     
-    standardTile("ps3-right",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-right", label: "right", action: "ps3-right", icon: ""
+    standardTile("ps3_right",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_right", label: "right", action: "ps3_right", icon: ""
     }
 
-    standardTile("ps3-select",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-select", label: "Select", action: "ps3-select", icon: ""
+    standardTile("ps3_select",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_select", label: "Select", action: "ps3_select", icon: ""
     }
 
-    standardTile("ps3-down",     "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-down", label: "down", action: "ps3-down", icon: ""
+    standardTile("ps3_down",     "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_down", label: "down", action: "ps3_down", icon: ""
     }
 
-    standardTile("ps3-start",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-start", label: "Start", action: "ps3-start", icon: ""
+    standardTile("ps3_start",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_start", label: "Start", action: "ps3_start", icon: ""
     }
 
-    standardTile("ps3-triangle", "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-triangle", label: "Triangle", action: "ps3-triangle", icon: ""
+    standardTile("ps3_triangle", "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_triangle", label: "Triangle", action: "ps3_triangle", icon: ""
     }
 
-    standardTile("ps3-circle",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-circle", label: "Circle", action: "ps3-circle", icon: ""
+    standardTile("ps3_circle",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_circle", label: "Circle", action: "ps3_circle", icon: ""
     }
 
-    standardTile("ps3-square",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
-      state "ps3-square", label: "Square", action: "ps3-square", icon: ""
+    standardTile("ps3_square",   "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
+      state "ps3_square", label: "Square", action: "ps3_square", icon: ""
     }
 
     standardTile("blank", "device.image", width: 1, height: 1, canChangeIcon: false,  canChangeBackground: false, decoration: "flat") {
@@ -152,7 +152,7 @@ metadata {
 
     main "sam_poweroff"
 
-    details(["sam_poweroff", "sam_up", "sam_smarthub", "sam_left", "sam_enter", "sam_right", "sam_chdown", "sam_down", "sam_chup", "sam_mute", "sam_voldown", "sam_volup", "sam_return", "sam_link", "blank", "ps3-poweron", "ps3-up", "ps3-ps", "ps3-left", "ps3-cross", "ps3-right", "ps3-select", "ps3-down", "ps3-start", "ps3-triangle", "ps3-circle", "ps3-square"])
+    details(["sam_poweroff", "sam_up", "sam_smarthub", "sam_left", "sam_enter", "sam_right", "sam_chdown", "sam_down", "sam_chup", "sam_mute", "sam_voldown", "sam_volup", "sam_return", "sam_link", "blank", "ps3_poweron", "ps3_up", "ps3_ps", "ps3_left", "ps3_cross", "ps3_right", "ps3_select", "ps3_down", "ps3_start", "ps3_triangle", "ps3_circle", "ps3_square"])
   }
 }
 
