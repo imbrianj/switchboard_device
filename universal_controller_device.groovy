@@ -10,6 +10,8 @@
 
 metadata {
   definition (name: "Universal Controller", namespace: "imbrian", author: "Brian J.") {
+    capability "Sensor"
+
     command "sam_poweroff"
     command "sam_up"
     command "sam_down"
