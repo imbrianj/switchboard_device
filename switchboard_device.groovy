@@ -10,7 +10,7 @@
  *
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,17 +21,17 @@
  */
 
 /**
- * Universal Controller Interface
+ * Switchboard Interface
  *
  * Author: brian@bevey.org
  * Date: 2014-5-6
  *
- * Used in conjunction with the Universal Controller, this allows you to
- * control properly configured devices from SmartThings.
+ * Used in conjunction with Switchboard, this allows you to control properly
+ * configured devices from SmartThings.
  */
 
 metadata {
-  definition (name: "Universal Controller", namespace: "imbrian", author: "Brian J.") {
+  definition (name: "Switchboard", namespace: "imbrian", author: "Brian J.") {
     capability "Sensor"
 
     command "sam_poweroff"
@@ -84,7 +84,7 @@ metadata {
     standardTile("sam_enter",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
       state "sam_enter", label: "Enter", action: "sam_enter", icon: ""
     }
-    
+
     standardTile("sam_right",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
       state "sam_right", label: "right", action: "sam_right", icon: ""
     }
@@ -141,7 +141,7 @@ metadata {
     standardTile("ps3_cross",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
       state "ps3_cross", label: "Cross", action: "ps3_cross", icon: ""
     }
-    
+
     standardTile("ps3_right",    "device.image", width: 1, height: 1, canChangeIcon: false, canChangeBackground: false, decoration: "flat") {
       state "ps3_right", label: "right", action: "ps3_right", icon: ""
     }
